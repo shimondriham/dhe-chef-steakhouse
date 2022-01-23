@@ -1,0 +1,99 @@
+body {
+    background-image: url(images/about.jpg);
+    background-size: cover;
+    background-position:top;
+}
+main{
+    margin-top: 25px;
+    /* min-height: 400px; */
+    padding: 30px 30px 50px 30px;
+    color:white;
+}
+main h2 {
+    /* width: 20%; */
+    text-align: center;
+    font-size: 25px;
+}
+main .container{
+    padding: 20px;
+    margin: o auto;
+    background-color: rgba(2, 1, 1, 0.397);
+    border-radius: 50px;
+
+}
+main .container .box{
+   padding: 20px;
+   margin: 4px;
+   text-align: center;
+}
+main .container .box1{
+ display: block;
+}
+main .box  p{
+    font-size: 15px; 
+}
+main .container .box img{
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+}
+main .container .box1 button{
+    /* color: white; */
+    padding: 5px 5px;
+    background: rgba(255, 255, 255, 0.295);
+    border-radius: 10px;
+    font-size: 20px;
+ font-family: 'Roboto', sans-serif;
+}
+main .container .box2{
+   display: none;
+}
+main .container .box2 img{
+    border: white solid 1px;
+}
+
+main .container .box2 button{
+    padding: 5px 5px;
+    background: rgba(255, 255, 255, 0.295);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+   }
+@media (max-width:1200px){
+    
+   }
+   @media (max-width:992px){
+    main h2 {
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    main .container p{
+        font-size: 15px; 
+    }
+   }
+   @media (max-width:768px){
+    main h2 {
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    main .container .box1 button{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    main .container p{
+        font-size: 14px; 
+    }
+    main .container .box1 button{
+        border-radius: 7px;
+        padding: 2px 5px;
+        font-size: 14px;
+    }
+    main .container .box2 button{
+        border-radius: 7px;
+        padding: 2px 5px;
+        font-size: 14px;
+    }
+   }

@@ -1,0 +1,52 @@
+
+
+  .carousel-item{
+    min-height: 680px;
+    /* min-height: 1000px; */
+    background-size: cover;
+    background-position: center;
+  }
+  .carousel-caption{
+    border-radius: 3em;
+    background:rgba(248, 248, 248, 0.582);
+  }
+
+  h3{
+    color: white;
+    font-size: 30px;
+
+  }
+  .strip_a{
+      color: black;
+  }
+
+main{
+  margin-top: 24px;
+}
+main .box1{
+   margin-bottom: 24px;
+
+}
+main .boxb{
+    /* margin: o auto; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* border: white solid 1px ;  */
+}
+main .boxbb{
+    margin: 30px;
+}
+main .boxbb img{
+    border-radius: 20px;
+}
+@media (max-width:768px){
+  main .box1{
+    margin-bottom: 10px;
+ }
+}
+
+
+
+
